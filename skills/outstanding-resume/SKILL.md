@@ -1,6 +1,6 @@
 ---
 name: outstanding-resume
-description: Rewrite a software engineer's resume into an outstanding one, following the principles in "如何寫出一份出色的履歷" (cythilya.tw). Diagnoses the resume, interviews the user for missing achievements and numbers, then produces a rewritten Traditional Chinese resume, an English version, change notes, and an interview script — optionally tailored to a target job description. Use when asked to rewrite, improve, review, polish, or tailor a resume / CV / 履歷.
+description: Rewrite a software engineer's resume into an outstanding one, following the principles in "如何打造出色的履歷" (cythilya.tw). Diagnoses the resume, interviews the user for missing achievements and numbers, then produces a rewritten Traditional Chinese resume, an English version, change notes, and an interview script — optionally tailored to a target job description. Use when asked to rewrite, improve, review, polish, or tailor a resume / CV / 履歷.
 ---
 
 # Outstanding Resume

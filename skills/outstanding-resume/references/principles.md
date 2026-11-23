@@ -1,6 +1,6 @@
 # Resume Principles
 
-Source: 「如何寫出一份出色的履歷」 https://www.cythilya.tw/2024/04/19/how-to-create-an-outstanding-resume/
+Source: 「如何打造出色的履歷」 https://www.cythilya.tw/2024/04/19/how-to-create-an-outstanding-resume/
 
 (O) = good example, (X) = bad example. Examples are illustrative; never copy their
 numbers into a user's resume.
