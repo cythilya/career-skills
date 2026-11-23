@@ -13,6 +13,11 @@ For each experience item with no result:
 - 這是你主導的、還是參與的？你具體負責哪一部分？
 - 當時的技術難點是什麼？你怎麼解決？
 
+If experience is organized by project, also ask:
+
+- 「<專案名稱>」是在哪一份工作做的？你在這個專案裡最重要的 1–2 個成果是什麼？有數據嗎？
+- 不同專案之間有類似的成果嗎？（例如都做過效能優化、都導入過測試）合計的效益是多少？
+
 ## Summary strengths
 
 - 你覺得自己最強的 3–5 個專長是什麼？

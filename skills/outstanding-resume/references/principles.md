@@ -60,6 +60,22 @@ Order, top to bottom:
   reading club, raising team skills and building a knowledge-sharing culture.
 - (X) 「實作 XX、導入 OO、重構 ZZ。」 — a meaningless list. Add the effect, e.g. after
   introducing OO, bugs fell 50% versus the previous year.
+- **Achievements, not projects:** organize experience by achievement, not by project.
+  A resume that lists projects (「專案 A：負責…」「專案 B：使用…」) shows what the person
+  worked on, not what they accomplished, and the reader has to dig for the value.
+  - Put every achievement under the job (company) where it happened. A separate 「專案經歷」
+    section tied to jobs is merged into those jobs.
+  - Extract the achievements and numbers from each project, then regroup them by outcome
+    (e.g. performance, quality and testing, revenue or conversion, team and process).
+    Similar results from different projects become one stronger bullet.
+  - Keep the project name only as context inside the bullet when it helps, e.g.
+    「優化電商結帳頁（XX 專案）效能，LCP 降低 30%」. The bullet starts with the result or
+    action, not the project name.
+  - Drop project descriptions that carry no achievement (what the product is, team size,
+    tech stack listings). Move the tech to 技能 if it supports the target role.
+  - Side projects or open-source work not tied to a job go to 作品.
+  - (X) 「**XX 會員系統**：使用 React、Redux 開發會員功能，負責登入、註冊頁面。」
+  - (O) 「**重構會員系統登入流程**，導入表單驗證與錯誤追蹤，登入失敗客訴減少 40%。」
 - **Ordering:** put technically difficult and leadership items first — they lead to deeper
   interview conversations.
 - **Verbs:** start with active verbs — 導入、建立、提升、優化、解決. Avoid passive 協助、支援.
@@ -144,3 +160,4 @@ Order, top to bottom:
 | P14 | Chinese–English spacing, proper-noun capitalization, full links |
 | P15 | 3–5 bolded keywords per section |
 | P16 | Tailored to the JD (if given) |
+| P17 | Experience organized by achievement and numbers under each job, not by project |

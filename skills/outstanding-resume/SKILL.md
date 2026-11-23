@@ -97,6 +97,9 @@ Read the resume and evaluate it against every rule in `references/principles.md`
 If a JD is given, also extract its must-have skills, responsibilities, and signals
 (remote, full-stack, cross-border/English, leadership).
 
+If experience is organized by project, note which job each project belongs to and which
+achievements and numbers it has; missing links become interview questions.
+
 Produce an internal list of issues, each tied to a principle. Do not show the rewrite yet.
 
 ### 2. Interview the user
@@ -129,6 +132,10 @@ Key rules (full list in the principles file):
   even after asking, state the contribution clearly instead of inventing a number.
 - Lead every experience bullet with an active verb (導入、建立、提升、優化、解決),
   never 協助 / 支援.
+- **Organize by achievement, not by project.** If the resume lists experience project by
+  project, extract each project's achievements and numbers, put them under the job where
+  they happened, and regroup them by outcome; keep the project name only as context.
+  Details in the "Achievements, not projects" rule of the principles.
 - Order bullets within each job: technically hard and leadership items first.
 - Trim or connect off-target experience; drop personal info (photo, address, family).
 - Bold 3–5 keywords per section that you want the interviewer to ask about.
