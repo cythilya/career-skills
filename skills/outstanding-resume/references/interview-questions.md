@@ -34,6 +34,12 @@ If experience is organized by project, also ask:
 - 你想應徵什麼職位？前端、全端、資深、Tech Lead？
 - 有偏好的工作型態嗎？遠端、混合、進辦公室？外商或跨國團隊？
 
+## Autobiography (only if the user wants one)
+
+- 為什麼選擇走這個領域？有什麼經歷沒寫進履歷，但影響你很深？
+- 你工作時最在意什麼？可以用一件實際的事說明嗎？
+- 想加入什麼樣的團隊？希望在下一份工作做到什麼？
+
 ## Gaps and off-target experience
 
 - <非工程經歷> 的經驗，有哪些能和目標職位連結？例如溝通協調、排優先順序、UX。

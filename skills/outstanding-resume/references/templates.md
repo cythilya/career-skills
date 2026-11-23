@@ -2,7 +2,7 @@
 
 Omit any section or line with no real content. Never fill placeholders with invented data.
 
-## resume.zh-TW.md
+## cv.zh-TW.md
 
 ```markdown
 # <姓名>
@@ -31,10 +31,11 @@ Omit any section or line with no real content. Never fill placeholders with inve
 - **GitHub**：<完整網址> — <代表專案與一句話說明>
 
 ## 自傳
+<!-- 只在使用者要自傳時出現；without-autobiography 版本不含 -->
 <以工作中的行動展現特質，2–4 句>
 ```
 
-## resume.en.md
+## cv.md
 
 ```markdown
 # <Name>
@@ -63,6 +64,7 @@ Omit any section or line with no real content. Never fill placeholders with inve
 - **GitHub:** <URL> — <one line>
 
 ## About
+<!-- Only when an autobiography was requested; not in the without-autobiography version -->
 <2–4 sentences showing traits through work actions.>
 ```
 

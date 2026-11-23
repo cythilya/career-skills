@@ -30,11 +30,12 @@ resume is in Traditional Chinese; the English version is in English.
 
 ### Before starting: ask for the optional inputs
 
-If the user has not provided a JD or a career positioning strategy, ask **once**, in a
-single message, before diagnosing. Make clear both are optional and show the example:
+Unless the user already gave all three, ask **once**, in a single message, before
+diagnosing: a JD, a career positioning strategy, and whether to include an
+autobiography (自傳). Make clear all are optional and show the example:
 
 ```
-開始前想先確認兩件事（都是選填，沒有可以直接回「略過」）：
+開始前想先確認三件事（都是選填，沒有可以直接回「略過」）：
 
 1. 有想應徵的職缺描述（JD）嗎？可以貼上文字或連結。
 2. 有你的職涯定位策略嗎？也就是你希望這份履歷讓人怎麼看你。例如：
@@ -44,12 +45,17 @@ single message, before diagnosing. Make clear both are optional and show the exa
    - 目標公司：外商或遠端團隊
    - 想強調：主導網站效能改善、帶領團隊建立測試流程
    - 想淡化：早期的 PM 經歷
+
+3. 要附上自傳嗎？預設不附。如果要，會另外產出一份「履歷＋自傳」的版本；
+   也可以先分享經歷沒寫到的動機或故事，例如為什麼走這個領域、想加入什麼樣的團隊。
 ```
 
 - Ask only for what is missing (skip question 1 if a JD was given, and so on).
 - With several resumes, the user may give one strategy for all or one per resume; ask
   this together with the pairing question in step 0.
-- If the user skips both, rewrite around the resume's own strongest specialties.
+- If the user skips both the JD and the strategy, rewrite around the resume's own
+  strongest specialties.
+- If the user skips question 3 or does not answer it, **no autobiography** is produced.
 
 How the positioning strategy is used:
 - **Diagnosis:** judge every section against it — does the resume support this positioning?
@@ -124,7 +130,12 @@ Use `references/interview-questions.md`.
 Rewrite following `references/principles.md` and the structure in
 `references/templates.md`:
 
-1. 簡述 → 2. 經歷 → 3. 學歷 → 4. 技能 → 5. 作品 → 6. 自傳.
+1. 簡述 → 2. 經歷 → 3. 學歷 → 4. 技能 → 5. 作品 → 6. 自傳 (only if requested).
+
+**Autobiography (自傳):** write it only when the user asked for one. It must add
+something the resume does not already say — motivation, how they work, what team they
+want to join — shown through work actions. Do not repeat results already in 簡述 or 經歷.
+If there is nothing new to say even after asking, tell the user and skip it.
 
 Key rules (full list in the principles file):
 - **Never fabricate** numbers, achievements, tools, titles, dates, or certificates.
@@ -153,7 +164,8 @@ English resume, not a literal translation:
 - Keep numbers, tool names, and company names exact. Romanize Chinese company or school
   names using their official English names if the user provided them; otherwise keep the
   original and flag it.
-- Section names: Summary, Experience, Education, Skills, Projects, About.
+- Section names: Summary, Experience, Education, Skills, Projects, and About (only when
+  an autobiography was requested; never in `cv.without-autobiography.md`).
 
 ### 5. Change notes
 
@@ -169,13 +181,25 @@ where the user needs to fill in a personal story, mark it 【請補充：…】.
 
 ### 7. Deliver
 
-Write four Markdown files. Put them next to the input file if one was given, otherwise in
-the current working directory, under a folder named `resume-output/`:
+Write Markdown files next to the input file if one was given, otherwise in the current
+working directory, under a folder named `resume-output/`.
 
-- `resume.zh-TW.md` — rewritten resume (Traditional Chinese)
-- `resume.en.md` — English resume
+Without an autobiography (default):
+
+- `cv.zh-TW.md` — rewritten resume (Traditional Chinese)
+- `cv.md` — English resume
 - `changes.md` — change notes
 - `interview-script.md` — interview script
+
+With an autobiography, produce two versions of each resume:
+
+- `cv.zh-TW.md` — rewritten resume with 自傳 at the end
+- `cv.zh-TW.without-autobiography.md` — the same resume without 自傳
+- `cv.md` — English resume with About at the end
+- `cv.without-autobiography.md` — the same English resume without About
+- `changes.md`, `interview-script.md` — as above
+
+The two versions must be identical except for the final section.
 
 With multiple pairs, give each pair its own subfolder named after the resume and the
 target, e.g. `resume-output/resume-frontend__senior-frontend-engineer/`.

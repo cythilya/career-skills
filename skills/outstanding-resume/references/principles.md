@@ -36,7 +36,7 @@ Order, top to bottom:
 3. **學歷 Education** — with rich experience, only the highest degree
 4. **技能 Skills**
 5. **作品 Works**
-6. **自傳 About / self-description**
+6. **自傳 About / self-description** — optional; only when the user asks for it
 
 - Use clean layout; **bold** (or underline) keywords so they stand out.
 - Review the whole resume and reorder so the key points come first.
@@ -122,6 +122,9 @@ Order, top to bottom:
 
 ## 8. 自傳 About
 
+- Optional. Include it only when the user asks; by default the resume ends at 作品.
+- Add what the rest of the resume does not say (motivation, way of working, the team
+  they want to join). Do not repeat results already in 簡述 or 經歷.
 - Show **personality traits through work actions**, not a life chronology.
 - (O) 「我致力於幫助團隊成長，因此建立培訓流程、提供培訓和組織讀書會，以提高團隊的技術技能。」
 - (X) Family upbringing, being independent, liking challenges, not fearing failure — may be
@@ -144,7 +147,7 @@ Order, top to bottom:
 
 | ID | Check |
 |---|---|
-| P1 | Sections in order: 簡述 → 經歷 → 學歷 → 技能 → 作品 → 自傳 |
+| P1 | Sections in order: 簡述 → 經歷 → 學歷 → 技能 → 作品 → 自傳 (自傳 only if requested) |
 | P2 | Summary: ~3 sentences, 3–5 concrete specialties, no generic soft skills or "learning/rookie" wording |
 | P3 | Every experience bullet shows a result (number) or a clear contribution |
 | P4 | Bullets start with active verbs; no 協助／支援 |
@@ -153,7 +156,7 @@ Order, top to bottom:
 | P7 | Education length fits career stage |
 | P8 | Skills limited to what the target job needs, grouped by category |
 | P9 | Works listed with full URLs |
-| P10 | About shows traits through work actions; no 「我會更努力」 |
+| P10 | About (if requested) shows traits through work actions, adds something new, no 「我會更努力」 |
 | P11 | No photo, address, family details, or other unneeded personal info |
 | P12 | No 自學／初學／轉職／菜鳥／學習中 framing |
 | P13 | Language ability as certificate/score |
