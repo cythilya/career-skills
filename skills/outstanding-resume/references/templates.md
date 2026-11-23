@@ -84,6 +84,10 @@ Omit any section or line with no real content. Never fill placeholders with inve
 ## 仍待補強
 - <項目> — <缺少什麼資訊，建議如何補>
 
+## 依職涯定位的調整（若有提供定位策略）
+- <定位重點> → <履歷中如何呈現：強調、移到前面、淡化或刪減>
+- <定位與實際經歷的落差（若有）> — <建議如何補強>
+
 ## 針對職缺的調整（若有 JD）
 - <JD 要求> → <履歷中對應的內容>
 ```

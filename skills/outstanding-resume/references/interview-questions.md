@@ -24,7 +24,7 @@ For each experience item with no result:
 - 有帶過人、帶過專案、做過 mentor、辦過分享會或讀書會嗎？結果如何？
 - 有建立或改善過團隊流程嗎？例如 code review、測試、CI/CD、文件、onboarding。
 
-## Target role (if no JD)
+## Target role (only if the user skipped both JD and positioning strategy)
 
 - 你想應徵什麼職位？前端、全端、資深、Tech Lead？
 - 有偏好的工作型態嗎？遠端、混合、進辦公室？外商或跨國團隊？

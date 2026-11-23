@@ -20,11 +20,47 @@ resume is in Traditional Chinese; the English version is in English.
 - **Resume** (required): pasted text, `.md`, `.pdf`, `.docx`, or LinkedIn profile text.
   Use the matching file-reading skill (pdf / docx) when needed.
 - **Target job description (JD)** (optional): text or URL. If provided, tailor the resume
-  to it. If not, ask once whether there is a target role or JD; if the user has none,
-  rewrite around the resume's own strongest specialties.
+  to it.
+- **Career positioning strategy (職涯定位策略)** (optional): how the user wants to be seen
+  in the market — target role, core specialties, target company type, what to emphasize
+  and what to downplay.
 - Several resumes and/or JDs may be given at once — see step 0.
 
 ## Workflow
+
+### Before starting: ask for the optional inputs
+
+If the user has not provided a JD or a career positioning strategy, ask **once**, in a
+single message, before diagnosing. Make clear both are optional and show the example:
+
+```
+開始前想先確認兩件事（都是選填，沒有可以直接回「略過」）：
+
+1. 有想應徵的職缺描述（JD）嗎？可以貼上文字或連結。
+2. 有你的職涯定位策略嗎？也就是你希望這份履歷讓人怎麼看你。例如：
+
+   - 目標職位：資深前端工程師，三年內往 Tech Lead 發展
+   - 核心專長：前端效能優化、SEO、測試流程
+   - 目標公司：外商或遠端團隊
+   - 想強調：主導網站效能改善、帶領團隊建立測試流程
+   - 想淡化：早期的 PM 經歷
+```
+
+- Ask only for what is missing (skip question 1 if a JD was given, and so on).
+- With several resumes, the user may give one strategy for all or one per resume; ask
+  this together with the pairing question in step 0.
+- If the user skips both, rewrite around the resume's own strongest specialties.
+
+How the positioning strategy is used:
+- **Diagnosis:** judge every section against it — does the resume support this positioning?
+- **Summary:** build the 3 sentences around its target role and core specialties.
+- **Experience:** put items that prove the positioning first; trim or shorten what it
+  says to downplay.
+- **Skills / works:** keep what supports the positioning.
+- **Conflicts:** if the positioning and a JD, or the positioning and the resume's actual
+  experience, don't match (e.g. aiming for Tech Lead with no leadership experience),
+  point it out in the diagnosis and ask how to handle it. Never invent experience to fill
+  the gap.
 
 ### 0. Match resumes to JDs (only when more than one resume or JD is given)
 
@@ -50,6 +86,7 @@ JD. Before anything else, ask the user to confirm the pairing:
 2. Ask: 「請告訴我每份履歷要對照哪一份 JD（例如 1→A、2→B）。」 Make clear that one JD
    can pair with several resumes, and a resume can have no JD.
 3. If there is no JD at all, ask what target role each resume is for instead.
+   In the same message, ask for the optional career positioning strategy (see above).
 4. Wait for the answer. Then run steps 1–7 once **per pair**, in the order the user listed.
    - If the resumes belong to the same person, ask a shared fact (e.g. the English name,
      a project's results) only once and reuse the answer for the other pairs.
